@@ -1,0 +1,20 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "羞羞的铁拳",
+      "date": "2017-xx-xx",
+      "director": "梁瑞玲",
+      "score":"7.6",
+      "img":"xiuxiu.jpg"
+    },
+    {
+      "id": 2,
+      "title": "芳华",
+      "date": "2017-xx-xx",
+      "director": "梁瑞玲",
+      "score":"6.9",
+      "img":"fanghua1.jpg"
+    }
+  ]
+}

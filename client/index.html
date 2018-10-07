@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width =device-width,initial-scale = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=dege">
+    <title>Movies</title>
+    <script src="axios.min.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background: #eeeeee">
+ <ul id="moviesRow">
+     <li class="moviesBox">
+         <div class="mPost">
+             <img src="fanghua.jpg" alt="">
+         </div>
+         <div class="mTitle">芳华</div>
+         <div class="mScore">★★★★★ 7.9</div>
+     </li>
+ </ul>
+</body>
+<script src="axios.min.js"></script>
+<!--  映入jquery.js-->
+<!--<script src="https://code.jquery.com/jquery-3.3.1.min.js"/>-->
+<script>
+    //1.使用vue 的ajax 加载数据
+    // window.onload= function (ev) {
+    //     //获取信息
+    //     axios.get("http://localhost:3000/movies")
+    //         .then(function (response) {
+    //             console.log(response.data)
+    //         })
+    //         .catch(function (error) {
+    //             console.log(error)
+    //         })
+    // }
+    //2. 使用 js 的ajax 
+    // window.onload = function (ev) {
+    //     //ajax 获取请求
+    //     var xmlhttp;
+    //     if (window.XMLHttpRequest)
+    //     {// code for IE7+, Firefox, Chrome, Opera, Safari
+    //         xmlhttp=new XMLHttpRequest();
+    //     }
+    //     else
+    //     {// code for IE6, IE5
+    //         xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    //     }
+    //     xmlhttp.onreadystatechange=function()
+    //     {
+    //         if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+    //         {
+    //             console.log(xmlhttp.responseText);
+    //         }
+    //     };
+    //     xmlhttp.open("GET","http://localhost:3000/movies",true);
+    //     xmlhttp.send();
+    // }
+     //3.使用jquery 的ajax 获取数据
+     //  $(function () {
+     //
+     //  })  相当于 window.onload
+
+ // window.onload = function (ev) {
+ //
+ //     alert("aaa");
+ //     // $.ajax({
+ //     //     url:"http://localhost:3000/movies",
+ //     //     type:'get',
+ //     //     dataType:'json',
+ //     //     success:function (data) {
+ //     //         console.log(data)
+ //     //     },
+ //     //     error:function (data) {
+ //     //         console.log(data);
+ //     //     }
+ //     // })
+ //
+ // }
+
+</script>
+</html>
